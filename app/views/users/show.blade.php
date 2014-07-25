@@ -1,1 +1,5 @@
-/var/www/laravel/app/views/users/show.blade.php
+@extends('layouts.master')
+
+@section('content')
+<!-- User Details goes here -->
+<p>{{} $user->names}}
